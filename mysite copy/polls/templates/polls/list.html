@@ -1,0 +1,8 @@
+<ul>
+{% for thought in thought_list %}
+    <li>{{ thought.thought_list}} -- {{ thought.thought_text}} </li>>
+{% endfor %}
+</ul>
+
+<a href="{% url 'polls:thoughts' %">Go Back</a>
+
